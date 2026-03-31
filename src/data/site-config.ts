@@ -3,26 +3,22 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://zaklaughton.dev',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Zak Laughton'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Zak Laughton',
+    subtitle: 'Full-stack developer in Austin, TX',
+    description: "Zak Laughton's blog and portfolio. Writing about JavaScript, React, GraphQL, testing, and developer productivity.",
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Zak Laughton - Full-stack developer'
     },
     headerNavLinks: [
         {
             text: 'Home',
             href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
         },
         {
             text: 'Blog',
@@ -41,33 +37,25 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'GitHub',
+            href: 'https://www.github.com/zaklaughton/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.twitter.com/zaklaughton/'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/zaklaughton/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hey, I\'m Zak Laughton',
+        text: "I'm a full-stack developer based in Austin, TX, building tools to make life a little easier. I write about JavaScript, React, GraphQL, testing, and developer productivity.\n\nFeel free to explore my writing below, check out my work on [GitHub](https://www.github.com/zaklaughton/), or connect with me on [Twitter/X](https://www.twitter.com/zaklaughton/).",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
@@ -80,8 +68,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
+        enabled: false,
+        title: 'Subscribe to Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {
             action: '#'
