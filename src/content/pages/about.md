@@ -24,4 +24,3 @@ I'm always happy to chat about code, answer questions about something I've writt
 - [GitHub](https://www.github.com/zaklaughton/) — zaklaughton
 - [Twitter/X](https://www.twitter.com/zaklaughton/) — @ZakLaughton
 - [LinkedIn](https://www.linkedin.com/in/zaklaughton/) — zaklaughton
-- Email — me@zaklaughton.dev

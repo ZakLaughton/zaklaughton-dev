@@ -33,10 +33,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'About',
             href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
         }
     ],
     socialLinks: [
@@ -55,15 +51,15 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Zak Laughton',
-        text: "I'm a full-stack developer based in Austin, TX, building tools to make life a little easier. I write about JavaScript, React, GraphQL, testing, and developer productivity.\n\nFeel free to explore my writing below, check out my work on [GitHub](https://www.github.com/zaklaughton/), or connect with me on [Twitter/X](https://www.twitter.com/zaklaughton/).",
+        text: "I'm a full-stack developer based in Austin, TX, building tools to make life a little easier. I write about JavaScript, React, GraphQL, testing, and developer productivity.\n\nFeel free to explore my writing below, check out my work on [GitHub](https://www.github.com/zaklaughton/), or connect with me on [Twitter/X](https://www.twitter.com/zaklaughton/) or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Connect on LinkedIn',
+                href: 'https://www.linkedin.com/in/zaklaughton/'
             }
         ]
     },
