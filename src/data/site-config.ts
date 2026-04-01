@@ -1,5 +1,4 @@
 import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
@@ -51,11 +50,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Zak Laughton',
-        text: "I'm a full-stack developer based in Austin, TX, building tools to make life a little easier. I write about JavaScript, React, GraphQL, testing, and developer productivity.\n\nFeel free to explore my writing below, check out my work on [GitHub](https://www.github.com/zaklaughton/), or connect with me on [Twitter/X](https://www.twitter.com/zaklaughton/) or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        text: "Senior frontend engineer with ~10 years of experience building scalable UI systems and developer tooling, most recently at Atlassian. I specialize in React, TypeScript, and Node.js, with a track record of shipping polished user experiences and raising the bar on developer productivity at scale.\n\nFind me on [GitHub](https://www.github.com/zaklaughton/), [Twitter/X](https://www.twitter.com/zaklaughton/), or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
         actions: [
             {
                 text: 'Connect on LinkedIn',
