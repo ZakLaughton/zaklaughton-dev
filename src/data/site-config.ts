@@ -41,13 +41,8 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Zak Laughton',
-        text: "Senior frontend engineer with ~10 years of experience building scalable UI systems and developer tooling, most recently at Atlassian. I specialize in React, TypeScript, and Node.js, with a track record of shipping polished user experiences and raising the bar on developer productivity at scale.\n\nFind me on [GitHub](https://www.github.com/zaklaughton/), [Twitter/X](https://www.twitter.com/zaklaughton/), or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
-        actions: [
-            {
-                text: 'Connect on LinkedIn',
-                href: 'https://www.linkedin.com/in/zaklaughton/'
-            }
-        ]
+        text: "Senior full-stack engineer with ~10 years of experience building scalable UI systems and developer tooling, most recently at Atlassian. I specialize in React, TypeScript, and Node.js, with a track record of shipping polished user experiences and raising the bar on developer productivity at scale.\n\nFind me on [GitHub](https://www.github.com/zaklaughton/), [Twitter/X](https://www.twitter.com/zaklaughton/), or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
+        actions: []
     },
     subscribe: {
         enabled: false,
