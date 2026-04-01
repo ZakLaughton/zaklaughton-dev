@@ -1,6 +1,6 @@
 ---
 title: 'Simplify regex by decoupling it from your programming language'
-excerpt: 'Nobody hates regex — they hate implementing it in code. Learn the most useful regex notations by using them where they shine: directly in your text editor.'
+excerpt: 'Nobody hates regex. They hate implementing it in code. Learn the most useful regex notations by using them where they shine: directly in your text editor.'
 publishDate: 'Feb 27 2020'
 tags:
   - Productivity

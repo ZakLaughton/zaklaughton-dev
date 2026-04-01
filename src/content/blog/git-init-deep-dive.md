@@ -1,6 +1,6 @@
 ---
 title: 'Git deep-dive: "git init"'
-excerpt: 'A closer look at the command that starts every git repository — what it actually does, what it creates, and a few tricks you might not know.'
+excerpt: 'A closer look at the command that starts every git repository: what it actually does, what it creates, and a few tricks you might not know.'
 publishDate: 'Mar 9 2020'
 tags:
   - Git
@@ -38,7 +38,7 @@ If you wanted, you could even manually create `.git/` and all its contents, and 
 
 ## 💡 ALL repository data is stored in `.git/`
 
-We often think about git storing historical data, while your working directory (everything outside `.git/`) has the current files. It's important to remember that Git, or more specifically: the `.git` directory, has _all_ the data — including the most recent committed changes. In fact, you can even `git clone` directly from the `.git` directory, just like you would from a remote repository!
+We often think about git storing historical data, while your working directory (everything outside `.git/`) has the current files. It's important to remember that Git, or more specifically: the `.git` directory, has _all_ the data, including the most recent committed changes. In fact, you can even `git clone` directly from the `.git` directory, just like you would from a remote repository!
 
 <figure><img alt="Original tree" src="https://dev-to-uploads.s3.amazonaws.com/i/zfet2so31fzri16x22y4.png"><figcaption>Now there are two of them!</figcaption></figure>
 

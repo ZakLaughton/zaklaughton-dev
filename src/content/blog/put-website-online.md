@@ -1,6 +1,6 @@
 ---
 title: 'Getting your first website on the internet is easier than you think'
-excerpt: 'From GitHub Pages to custom domains, here is everything you need to get your site live — and it takes less time than you expect.'
+excerpt: 'From GitHub Pages to custom domains, here is everything you need to get your site live. It takes less time than you expect.'
 publishDate: 'Apr 25 2020'
 tags:
   - Hosting
@@ -16,7 +16,7 @@ Just before writing this article, I built a full website and published it online
 
 Okay, okay, so it's not the most impressive site (see all 3 lines of code in the repo [here](https://github.com/ZakLaughton/im-on-the-internet)), but it _was_ incredibly easy to put on the internet.
 
-When I started learning web development, I thought getting my work online would be complicated. I pushed off figuring it out how to do it for way too long. It turns out, as long as you have an HTML file and a git repository, you can publish your site within minutes — you can even get a custom URL!
+When I started learning web development, I thought getting my work online would be complicated. I pushed off figuring it out how to do it for way too long. It turns out, as long as you have an HTML file and a git repository, you can publish your site within minutes: you can even get a custom URL!
 
 (This article assumes a basic understanding of git to push to a remote repository. If you're a new web developer unfamiliar with git, you'll need to learn it! Check out some of the training resources [here](https://try.github.io/)).
 
@@ -42,7 +42,7 @@ That's it! Github will provide you with a URL that you or anyone can use to acce
 
 ### Framework sites with GitHub Pages
 
-If you're using a framework such as [React](https://reactjs.org/) to build your site, you probably don't have an index.html just laying out there to be served up. These types of frameworks typically require you to **build** the site — this just means running a command to take all your files written for your framework and turn them into a simple "index.html" site that browsers will understand. Most often, these end up in some sort of "/build" folder.
+If you're using a framework such as [React](https://reactjs.org/) to build your site, you probably don't have an index.html just laying out there to be served up. These types of frameworks typically require you to **build** the site: this just means running a command to take all your files written for your framework and turn them into a simple "index.html" site that browsers will understand. Most often, these end up in some sort of "/build" folder.
 
 For GitHub Pages to use this page, you'll need to build the site, put the built site on a new branch, and point Github Pages to the "build" branch. It's a few extra steps, but still should still be relatively quick to get your site online. There are also some great tools out there to automate this for you.
 
@@ -89,8 +89,8 @@ In building web apps, you may get to a point where you do need a server to help 
 The finer details are outside the scope of this article, but know that there are also server-side options are out there to automate the deployment process from a git repository.
 
 **Examples**
-🌐 [flattenthecurve.zaklaughton.dev](https://flattenthecurve.zaklaughton.dev) ([repo](https://github.com/ZakLaughton/flatten-the-curve)) — Server-side rendered site (using [Gatsby](https://www.gatsbyjs.org/)). Automatically builds and deploys the site when the GitHub master branch updates.
-🌐 [survivorstats.com](https://survivorstats.com) ([repo](https://github.com/ZakLaughton/survivor-stats)) — Front end is hosted on netlify. Back end (responsible for fetching database data) is hosted on Heroku. The back end is updated with simple commands from the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
+🌐 [flattenthecurve.zaklaughton.dev](https://flattenthecurve.zaklaughton.dev) ([repo](https://github.com/ZakLaughton/flatten-the-curve)): Server-side rendered site (using [Gatsby](https://www.gatsbyjs.org/)). Automatically builds and deploys the site when the GitHub master branch updates.
+🌐 [survivorstats.com](https://survivorstats.com) ([repo](https://github.com/ZakLaughton/survivor-stats)): Front end is hosted on netlify. Back end (responsible for fetching database data) is hosted on Heroku. The back end is updated with simple commands from the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 # Summary
 

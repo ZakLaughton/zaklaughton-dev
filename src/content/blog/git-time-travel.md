@@ -1,6 +1,6 @@
 ---
 title: '3 ways to time travel in Git to undo destructive mistakes'
-excerpt: 'Botched a rebase? Nuked commits with a reset? Git has built-in tools to get you back — no re-cloning required.'
+excerpt: 'Botched a rebase? Nuked commits with a reset? Git has built-in tools to get you back without re-cloning.'
 publishDate: 'Feb 27 2020'
 isFeatured: true
 tags:
