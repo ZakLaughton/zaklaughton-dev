@@ -24,12 +24,7 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
     ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        }
-    ],
+    footerNavLinks: [],
     socialLinks: [
         {
             text: 'GitHub',
