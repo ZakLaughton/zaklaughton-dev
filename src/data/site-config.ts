@@ -8,16 +8,20 @@ const siteConfig: SiteConfig = {
         alt: 'Zak Laughton'
     },
     title: 'Zak Laughton',
-    subtitle: 'Full-stack developer in Austin, TX',
-    description: "Zak Laughton's blog and portfolio. Writing about JavaScript, React, GraphQL, testing, and developer productivity.",
+    subtitle: 'Engineering leader in Austin, TX',
+    description: "Zak Laughton's portfolio. Engineering manager and full-stack engineer with 9 years at Atlassian.",
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Zak Laughton - Full-stack developer'
+        alt: 'Zak Laughton - Engineering leader'
     },
     headerNavLinks: [
         {
             text: 'Home',
             href: '/'
+        },
+        {
+            text: 'Projects',
+            href: '/projects'
         },
         {
             text: 'Blog',
@@ -41,7 +45,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Zak Laughton',
-        text: "Senior full-stack engineer with ~10 years of experience building scalable UI systems and developer tooling, most recently at Atlassian. I specialize in React, TypeScript, and Node.js, with a track record of shipping polished user experiences and raising the bar on developer productivity at scale.\n\nFind me on [GitHub](https://www.github.com/zaklaughton/), [Twitter/X](https://www.twitter.com/zaklaughton/), or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
+        text: "Engineering manager and full-stack engineer with 9 years at Atlassian. I care about building teams that are aligned, motivated, and doing their best work.\n\nCurrently open to engineering manager roles. Find me on [GitHub](https://www.github.com/zaklaughton/), [Twitter/X](https://www.twitter.com/zaklaughton/), or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
         actions: []
     },
     subscribe: {
