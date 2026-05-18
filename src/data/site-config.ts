@@ -8,11 +8,11 @@ const siteConfig: SiteConfig = {
         alt: 'Zak Laughton'
     },
     title: 'Zak Laughton',
-    subtitle: 'Full-stack engineer in Austin, TX',
-    description: "Zak Laughton's portfolio. Full-stack engineer with 9 years at Atlassian.",
+    subtitle: 'Engineering manager + full-stack engineer in Austin, TX',
+    description: "Zak Laughton's portfolio. Engineering manager and full-stack engineer with 9 years at Atlassian.",
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Zak Laughton - Full-stack engineer'
+        alt: 'Zak Laughton - Engineering manager and full-stack engineer'
     },
     headerNavLinks: [
         {
@@ -45,7 +45,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hey, I\'m Zak Laughton',
-        text: "Senior software engineer with 9 years at Atlassian. Full-stack in TypeScript, React, and Node.js, with a background spanning frontend systems, data pipelines, and developer tooling.\n\nCurrently open to new roles. Find me on [GitHub](https://www.github.com/zaklaughton/) or [LinkedIn](https://www.linkedin.com/in/zaklaughton/).",
+        text: "I manage engineering teams and write code. Nine years at Atlassian doing both. This is where I think out loud about software, leadership, and the overlap between them.\n\nCurrently exploring new opportunities. Find me on [LinkedIn](https://www.linkedin.com/in/zaklaughton/) or [GitHub](https://www.github.com/zaklaughton/).",
         actions: []
     },
     subscribe: {
